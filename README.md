@@ -1,2 +1,3 @@
 # MonteCarloPi
-Absurdly simple Monte Carlo simulation: Estimate π by throwing darts at a unit circle.
+
+An absurdly simple [Monte Carlo simulation](https://en.wikipedia.org/wiki/Monte_Carlo_method).
