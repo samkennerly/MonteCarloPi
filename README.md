@@ -1,3 +1,2 @@
 # MonteCarloPi
-an absurdly simple introduction to Monte Carlo simulation:  
-estimate π by throwing darts at a unit circle inscribed in a square.
+Absurdly simple Monte Carlo simulation: Estimate π by throwing darts at a unit circle.
