@@ -1,4 +1,12 @@
-all: picasino
+BINS := picasino
+CC := g++
 
-picasino: src/picasino.cpp
-	g++ src/picasino.cpp -o bin/picasino
+.PHONY: all clean
+
+all: $(BINS)
+
+clean:
+	rm -f bin/$(BINS)
+
+$(BINS):
+	$(CC) src/$(BINS).cpp -o bin/$(BINS)
