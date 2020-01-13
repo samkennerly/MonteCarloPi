@@ -34,7 +34,7 @@ bin/picasino
 ## dependencies
 
 1. `g++` from the [GNU Compiler Collection](https://gcc.gnu.org/)
-1. [make](https://en.wikipedia.org/wiki/Make_%27software%28)
+1. [make](https://en.wikipedia.org/wiki/Make_%28software%29)
 
 ## examples
 
