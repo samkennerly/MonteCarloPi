@@ -1,8 +1,11 @@
 # picasino
 
-A [Monte Carlo simulation].
+Estimate the value of π with a [Monte Carlo simulation].
 
-<img alt="Le Chiffre" src="picasino.jpeg" title="You must have thought I was bluffing.">
+<img
+  alt="Le Chiffre"
+  src="https://raw.githubusercontent.com/samkennerly/posters/master/picasino.jpeg"
+  title="You must have thought I was bluffing.">
 
 [Monte Carlo simulation]: https://en.wikipedia.org/wiki/Monte_Carlo_method
 
@@ -26,7 +29,7 @@ Run `make` to compile the program.
 
 ## commands
 
-Estimate π. (Needs user input.)
+Estimate π. (Requires interactive user input.)
 ```
 bin/picasino
 ```
