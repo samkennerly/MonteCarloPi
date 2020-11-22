@@ -1,12 +1,12 @@
-BINS := picasino
-CC := g++
+BINARY := picasino
+COMPILE := g++
 
 .PHONY: all clean
 
-all: $(BINS)
+all: $(BINARY)
 
 clean:
-	rm -f bin/$(BINS)
+	rm -f bin/$(BINARY)
 
-$(BINS):
-	$(CC) src/$(BINS).cpp -o bin/$(BINS)
+$(BINARY):
+	$(COMPILE) src/$(BINARY).cpp -o bin/$(BINARY)
