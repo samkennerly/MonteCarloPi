@@ -9,7 +9,6 @@ Use a brute-force Monte Carlo method.
 */
 
 #include<iostream>
-#include<vector>
 #include<ctime>
 
 using namespace std;
