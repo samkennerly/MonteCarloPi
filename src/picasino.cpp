@@ -1,29 +1,21 @@
 /*
-Estimate pi.
-Run interactively.
+Estimate pi. Run interactively.
 Use a brute-force Monte Carlo method.
 */
 
-/* TO DO
-- built-in PI?
-*/
-
 #include<iostream>
+#include<cmath>
 #include<ctime>
 
 using namespace std;
 
-#define PI 3.14159265358979323846264338327950288419716939937510
-
 double sample(){
 	// Random sample from uniform distribution on [-1, 1).
-
 	return 2.0 * rand() / RAND_MAX - 1.0;
 }
 
 double sqradius(double (&point)[2]){
 	// Return squared radius. We don't have time for square roots.
-
 	return point[0] * point[0] + point[1] * point[1];
 }
 
@@ -69,7 +61,7 @@ int main(){
 	cout.precision(8);
 	cout << endl;
 	cout << "Estimate: " << roughpi << endl;
-	cout << "Error:    " << roughpi - PI << endl;
+	cout << "Error:    " << roughpi - M_PI << endl;
 	cout << "Tosses:   " << tosses << endl;
 	cout << "Time:     " << elapsed / CLOCKS_PER_SEC << " seconds" << endl;
 	cout << endl;
