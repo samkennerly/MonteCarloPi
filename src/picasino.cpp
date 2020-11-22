@@ -22,20 +22,17 @@ double sample(){
 	return 2.0 * rand() / RAND_MAX - 1.0;
 }
 
-double sqradius(vector<double> &point){
+double sqradius(double (&point)[2]){
 	// Return squared radius. We don't have time for square roots.
 
-	double x = point[0];
-	double y = point[1];
-
-	return x * x + y * y;
+	return point[0] * point[0] + point[1] * point[1];
 }
 
 double hits(unsigned long &tosses){
 	// Throw many darts. How many landed inside the circle?
 
 	unsigned long hits = 0;
-	vector<double> dart(2);
+	double dart[2] = {0, 0};
 
 	for (int d = 0; d < tosses; d++){
 		dart[0] = sample();
